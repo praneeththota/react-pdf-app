@@ -10,18 +10,9 @@ import Quixote from './react_pdf_old';
 
 
 import * as serviceWorker from './serviceWorker';
-const PdfDoc = () => (
-  <PDFViewer style = {{width: '100%', minHeight: '100px'}}>
-    <MyDocument />
-  </PDFViewer>
 
-);
 
-ReactDOM.render(
-<div>
-<PdfDoc/>
-<App />
-</div>, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
